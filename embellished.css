@@ -1,0 +1,139 @@
+
+
+body{
+	margin-top: 75px;
+	text-align: center;
+	font-family: "Nunito" ,sans-serif;
+
+}
+
+header{
+	margin-bottom: 45px;
+}
+/*the top icon "gears"*/
+.fa-gears:before, .fa-cogs:before{
+	font-size: 35px;
+	color: white;
+	background-color: #733673;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+
+h1{
+	color: #733673;
+	margin-top: 75px;
+	font-size: 6rem;
+}
+
+
+h4{
+	margin-bottom: 75px;
+}
+
+
+span{
+	text-decoration: underline;
+}
+
+
+.btn-default{
+	margin:0 3rem;
+	border: none;
+}
+
+/*the current page button is this correct?*/
+#active{
+	border:1px solid grey;
+	border-radius: 9%;
+}
+
+
+.purple-div{
+	background-color: #733673;
+	height: 250px;
+	padding-top: 75px;
+}
+
+/*this <p> called for white text*/
+h2, #white-text{
+	color: white;
+	padding: 0 8rem;
+}
+
+
+.container{
+	height: 400px;
+}
+
+
+h3{
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+
+.purple-btn-default{
+	background-color: #733673;
+	color: white;
+	margin: 30px;
+}
+
+
+.bottom-icon{
+	font-size: 25px;
+	padding: 20px;
+}
+
+
+.row{
+	padding-top: 40px;
+}
+
+
+footer{
+	background-color: black;
+	height: 350px;
+}
+
+
+
+footer div ul li {
+	display: inline-block;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #733673;
+    color: white;
+    margin: 15px;
+}
+
+
+footer div ul li i{
+	padding-top: 15px;
+}
+
+
+ul{
+	padding: 0;
+}
+
+
+.footer-div{
+	padding-top: 50px;
+}	
+
+
+hr{
+	border-color: #202020;
+	width: 75%;
+}
+
+/*questions
+What is the icon im missing? couldnt find it in font awesome
+what is the font?
+lighter font?
+is the active/current page button correct?
+do i need the section tags
+responsiveness?*/
